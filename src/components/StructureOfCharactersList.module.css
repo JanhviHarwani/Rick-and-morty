@@ -1,0 +1,30 @@
+.customized_card {
+  /* display: grid; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  /* border: 1px solid black; */
+  box-shadow: 4px 4px #c3c3c31a;
+  border-radius: 20px;
+}
+
+.card_heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* display: grid; */
+  text-align: center;
+}
+.picture,
+.species {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  /* display: grid; */
+}
