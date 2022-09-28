@@ -1,0 +1,27 @@
+.individualContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.individualMainContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.individualContainerEpisode {
+  display: grid;
+  text-align: center;
+}
+.title {
+  display: flex;
+}
+.content {
+  display: flex;
+  margin-left: 10px;
+}
