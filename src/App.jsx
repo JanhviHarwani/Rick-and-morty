@@ -1,11 +1,18 @@
-import React from 'react';
-import './App.css';
-
+import React from "react";
+import "./App.css";
+import CharactersList from "./components/CharactersList";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import IndividualCharacter from "./components/IndividualCharacter";
 function App() {
   return (
-    <p>
-      Cleanedup React App
-    </p>
+    // <Layout>
+    <Router>
+      <Routes>
+        <Route path="/" element={<CharactersList />}></Route>
+        <Route path="/:id" element={<IndividualCharacter />}></Route>
+      </Routes>
+    </Router>
+    // </Layout>
   );
 }
 

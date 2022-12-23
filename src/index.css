@@ -1,0 +1,10 @@
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
+body {
+  background-color: #dbc2ab85;
+  font-family: "Shadows Into Light", cursive;
+}
