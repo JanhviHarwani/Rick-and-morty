@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
 import CharactersList from "./components/CharactersList";
-import Layout from "./components/Layout";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import IndividualCharacter from "./components/IndividualCharacter";
 function App() {

@@ -20,7 +20,6 @@ const GET_INDIVIDUAL_CHARACTER = gql`
 `;
 function IndividualCharacter() {
   let urlId = useParams();
-  // console.log(urlId?.id);
   const { error, loading, data } = useQuery(GET_INDIVIDUAL_CHARACTER, {
     variables: {
       id: urlId?.id,
