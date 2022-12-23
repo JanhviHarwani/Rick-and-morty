@@ -29,14 +29,6 @@ function IndividualCharacter() {
   else if (loading) return <h4>Loading...</h4>;
   else
     return (
-      // <div
-      //   style={{
-      //     display: "flex",
-      //     flexDirection: "row",
-      //     justifyContent: "center",
-      //     alignItems: "center",
-      //   }}
-      // >
       <div className={css.individualMainContainer}>
         <div className={css.individualContainer}>
           <h3 className={css.title}>Name:</h3>

@@ -13,17 +13,26 @@ function CharactersList() {
   else if (loading) return <h4>Loading...</h4>;
   else
     return (
-      <Layout>
-        {charactersList?.map((character) => (
-          <Card
-            key={character?.id}
-            id={character?.id}
-            title={character?.name}
-            image={character?.image}
-            species={character?.species}
-          />
-        ))}
-      </Layout>
+      <div
+        style={{
+          display: "flex",
+          "flex-direction": "column",
+          "text-align": "center",
+        }}
+      >
+        <h2>~: Characters of Rick And Morty 🧞:~</h2>
+        <Layout>
+          {charactersList?.map((character) => (
+            <Card
+              key={character?.id}
+              id={character?.id}
+              title={character?.name}
+              image={character?.image}
+              species={character?.species}
+            />
+          ))}
+        </Layout>
+      </div>
     );
 }
 
